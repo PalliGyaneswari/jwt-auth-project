@@ -4,6 +4,12 @@ This project is a **Full-Stack JWT Authentication System** built using **React (
 It implements **secure user authentication** using JSON Web Tokens (JWT) to verify and protect user routes.
 
 ---
+## 🌐 Live Demo
+
+- **Frontend (Vercel):** [jwt-auth-project.vercel.app](jwt-auth-project.vercel.app)
+- **Backend (Render):** [https://jwt-auth-project-ijb8.onrender.com](https://jwt-auth-project-ijb8.onrender.com)
+
+---
 
 ## Project Overview
 
@@ -70,7 +76,7 @@ jwt-auth-project/
 cd backend
 npm install
 node server.js
-The backend runs on "http://localhost:5000"
+The backend runs on "https://jwt-auth-project-ijb8.onrender.com"
 
 ---
 ### Frontend setup
@@ -78,7 +84,7 @@ The backend runs on "http://localhost:5000"
 cd frontend
 npm install
 npm run dev
-The frontend runs on "http://localhost:5173"
+The frontend runs on "jwt-auth-project.vercel.app"
 
 ---
 
@@ -87,7 +93,7 @@ Testing the API (optional)
 You can test the backend using Thunder Client or Postman.
 Login Request
 
-POST :http://localhost:5000/login
+POST :https://jwt-auth-project-ijb8.onrender.com/login
 In the body i.r in the JSON
 {
   "email": "user@example.com",
@@ -100,7 +106,7 @@ Use that token to access the /profile route with a Bearer Token.
 
 Protected Route
 
-GET: http://localhost:5000/profile
+GET: https://jwt-auth-project-ijb8.onrender.com/profile
 
 Add this to header:
 Authorization: Bearer <your_token>
@@ -128,5 +134,4 @@ Author
 
 Palli Gyaneswari
 Full-Stack Developer | JWT Authentication Project
-Email: user@example.com
-
+Email: 22981a05d5@raghuenggcollege.in
