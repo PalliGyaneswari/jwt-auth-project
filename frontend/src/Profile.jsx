@@ -15,7 +15,7 @@ export default function Profile() {
     }
 
     axios
-      .get("http://localhost:5000/profile", {
+      .get("https://jwt-auth-project-ijb8.onrender.com/profile", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((res) => setUser(res.data.user))
